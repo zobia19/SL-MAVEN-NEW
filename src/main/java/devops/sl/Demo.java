@@ -6,5 +6,9 @@ public class Demo {
 	{
 		System.out.println("Hello Jenkins");
 	}
+	public void show()
+	{
+		System.out.println("Hello SL");
+	}
 
 }
