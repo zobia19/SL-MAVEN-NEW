@@ -10,7 +10,12 @@ pipeline {
             steps {
                 echo "Welcome to Pipeline"
             }
-        }       
+        }  
+        stage('Maven Test') {
+            steps {
+                bat 'mvn test'
+            }
+        }      
 
         stage('Maven Build') {
             steps {
